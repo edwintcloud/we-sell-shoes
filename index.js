@@ -86,8 +86,8 @@ prev.addEventListener("click", function() {
 
 ////////////////// end of testimonial section
 
-/////////////FAQ accordion section///////////////
 
+/////////////FAQ accordion section///////////////
 
 //delcare default vars
 const acc = document.getElementsByClassName("accordion");
@@ -103,7 +103,7 @@ for (let i = 0; i < acc.length; i++) {
     //select sibling element
     let panel = this.nextElementSibling;
     //if sibling is open, close it, if closed, open it
-    if (panel.style.maxHeight){
+    if (panel.style.maxHeight) {
       //panel is open open
       panel.style.maxHeight = null; //add this line
 
